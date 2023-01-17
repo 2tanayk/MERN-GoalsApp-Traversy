@@ -14,6 +14,9 @@ app.use(express.urlencoded({extended:false}))
 
 const goalsRouter = require("./routes/goalRoutes");
 app.use("/api/goals", goalsRouter);
+
+const usersRouter = require("./routes/userRoutes");
+app.use("/api/users", usersRouter);
 //overwriting the default error handler to give us more information
 app.use(errorHandler)
 
