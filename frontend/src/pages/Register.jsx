@@ -74,7 +74,7 @@ function Register() {
           <div className="form-group">
             <input
               type="text"
-              lassName="form-control"
+              className="form-control"
               id="name"
               name="name"
               value={name}
@@ -85,7 +85,7 @@ function Register() {
           <div className="form-group">
             <input
               type="email"
-              lassName="form-control"
+              className="form-control"
               id="email"
               name="email"
               value={email}
@@ -96,7 +96,7 @@ function Register() {
           <div className="form-group">
             <input
               type="password"
-              lassName="form-control"
+              className="form-control"
               id="password"
               name="password"
               value={password}
@@ -107,7 +107,7 @@ function Register() {
           <div className="form-group">
             <input
               type="password"
-              lassName="form-control"
+              className="form-control"
               id="passwordConfirm"
               name="passwordConfirm"
               value={passwordConfirm}
